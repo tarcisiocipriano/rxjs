@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.routing';
 import { AppComponent } from './app.component';
 import { InitialComponent } from './initial/initial.component';
 import { ObservableComponent } from './observable/observable.component';
+import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InitialComponent,
-    ObservableComponent
+    ObservableComponent,
+    MapThrottletimeComponent
   ],
   imports: [
     BrowserModule,
