@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ObservableComponent } from './observable/observable.component';
 import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.component';
 import { SubjectComponent } from './subject/subject.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ObservableComponent,
     MapThrottletimeComponent,
-    SubjectComponent
+    SubjectComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,

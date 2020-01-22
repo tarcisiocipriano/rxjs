@@ -3,13 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { ObservableComponent } from './observable/observable.component';
 import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.component';
 import { SubjectComponent } from './subject/subject.component';
+import { FilterComponent } from './filter/filter.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'observable', pathMatch: 'full' },
   { path: 'observable', component: ObservableComponent },
   { path: 'map-throttletime', component: MapThrottletimeComponent },
-  { path: 'subject', component: SubjectComponent }
+  { path: 'subject', component: SubjectComponent },
+  { path: 'filter', component: FilterComponent }
 ];
 
 @NgModule({
