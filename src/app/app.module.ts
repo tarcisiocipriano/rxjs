@@ -8,6 +8,7 @@ import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.co
 import { SubjectComponent } from './subject/subject.component';
 import { FilterComponent } from './filter/filter.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
+import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
     MapThrottletimeComponent,
     SubjectComponent,
     FilterComponent,
-    DebouncetimeComponent
+    DebouncetimeComponent,
+    ScanReduceComponent
   ],
   imports: [
     BrowserModule,

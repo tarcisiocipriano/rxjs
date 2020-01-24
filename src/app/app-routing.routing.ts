@@ -5,6 +5,7 @@ import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.co
 import { SubjectComponent } from './subject/subject.component';
 import { FilterComponent } from './filter/filter.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
+import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'map-throttletime', component: MapThrottletimeComponent },
   { path: 'subject', component: SubjectComponent },
   { path: 'filter', component: FilterComponent },
-  { path: 'debouncetime', component: DebouncetimeComponent }
+  { path: 'debouncetime', component: DebouncetimeComponent },
+  { path: 'scan-reduce', component: ScanReduceComponent }
 ];
 
 @NgModule({
