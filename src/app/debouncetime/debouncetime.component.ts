@@ -9,6 +9,8 @@ import { map, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 })
 export class DebouncetimeComponent implements OnInit, OnDestroy {
 
+  output: string;
+
   @ViewChild('input', {static: true}) input: ElementRef;
 
   subscription = new Subscription();
@@ -22,7 +24,7 @@ export class DebouncetimeComponent implements OnInit, OnDestroy {
       distinctUntilChanged()
     )
     .subscribe(
-      data => console.log(data)
+      data => this.output = data
     );
   }
 
