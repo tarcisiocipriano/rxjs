@@ -9,6 +9,7 @@ import { SubjectComponent } from './subject/subject.component';
 import { FilterComponent } from './filter/filter.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
+import { PluckComponent } from './pluck/pluck.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
     SubjectComponent,
     FilterComponent,
     DebouncetimeComponent,
-    ScanReduceComponent
+    ScanReduceComponent,
+    PluckComponent
   ],
   imports: [
     BrowserModule,
