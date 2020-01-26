@@ -12,6 +12,7 @@ import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 import { PluckComponent } from './pluck/pluck.component';
 import { MergemapComponent } from './mergemap/mergemap.component';
 import { SwitchmapComponent } from './switchmap/switchmap.component';
+import { BehaviorsubjectComponent } from './behaviorsubject/behaviorsubject.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SwitchmapComponent } from './switchmap/switchmap.component';
     ScanReduceComponent,
     PluckComponent,
     MergemapComponent,
-    SwitchmapComponent
+    SwitchmapComponent,
+    BehaviorsubjectComponent
   ],
   imports: [
     BrowserModule,
