@@ -10,6 +10,7 @@ import { FilterComponent } from './filter/filter.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 import { PluckComponent } from './pluck/pluck.component';
+import { MergemapComponent } from './mergemap/mergemap.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PluckComponent } from './pluck/pluck.component';
     FilterComponent,
     DebouncetimeComponent,
     ScanReduceComponent,
-    PluckComponent
+    PluckComponent,
+    MergemapComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ import { FilterComponent } from './filter/filter.component';
 import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 import { PluckComponent } from './pluck/pluck.component';
+import { MergemapComponent } from './mergemap/mergemap.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'filter', component: FilterComponent },
   { path: 'debouncetime', component: DebouncetimeComponent },
   { path: 'scan-reduce', component: ScanReduceComponent },
-  { path: 'pluck', component: PluckComponent }
+  { path: 'pluck', component: PluckComponent },
+  { path: 'mergemap', component: MergemapComponent }
 ];
 
 @NgModule({
