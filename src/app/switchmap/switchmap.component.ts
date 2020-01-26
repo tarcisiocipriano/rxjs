@@ -25,7 +25,7 @@ export class SwitchmapComponent implements OnInit, OnDestroy {
     //   )
     // );
 
-    obs1.pipe(
+    this.subscription = obs1.pipe(
       switchMap(
         () => {
           return obs2;

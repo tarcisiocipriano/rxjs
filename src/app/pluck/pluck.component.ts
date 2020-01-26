@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { Subscription, fromEvent } from 'rxjs';
-import { map, debounceTime, distinctUntilChanged, pluck } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, pluck } from 'rxjs/operators';
 
 @Component({
   selector: 'app-pluck',

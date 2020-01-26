@@ -1,5 +1,5 @@
-import { Component, OnInit, ViewChild, ElementRef, OnDestroy, Input } from '@angular/core';
-import { Subscription, fromEvent, Observable } from 'rxjs';
+import { Component, OnInit, ViewChild, ElementRef, OnDestroy } from '@angular/core';
+import { Subscription, fromEvent } from 'rxjs';
 import { map, mergeMap } from 'rxjs/operators';
 
 @Component({
