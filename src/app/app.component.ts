@@ -9,7 +9,7 @@ import { observable } from 'rxjs';
 export class AppComponent {
 
   observables: { name: string, route: string }[] = [
-    { name: 'Observable', route: 'observable' },
+    // { name: 'Observable', route: 'observable' },
     { name: 'map() and throttleTime()', route: 'map-throttletime' },
     { name: 'Subject()', route: 'subject' },
     { name: 'filter()', route: 'filter' },

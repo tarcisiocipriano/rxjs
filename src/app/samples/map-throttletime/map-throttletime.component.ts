@@ -9,19 +9,23 @@ import { map, throttleTime } from 'rxjs/operators';
 })
 export class MapThrottletimeComponent implements OnInit, OnDestroy {
 
-  numbers: string[] = [];
+  output: string[] = [];
 
   subscription = new Subscription();
 
-  constructor() { }
+  observer = {
+    next: (value: string) => this.output.push(value),
+    error: (error: string) => console.log(error),
+    complete: () => console.log('completed')
+  };
 
   ngOnInit() {
     this.subscription = interval(1000)
       .pipe(
         map(value => `Number: ${value}`),
-        throttleTime(2000),
+        throttleTime(1000)
       )
-      .subscribe(value => this.numbers.push(value));
+      .subscribe(this.observer);
   }
 
   ngOnDestroy(): void {
