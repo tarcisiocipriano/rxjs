@@ -11,6 +11,7 @@ import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 import { PluckComponent } from './pluck/pluck.component';
 import { MergemapComponent } from './mergemap/mergemap.component';
+import { SwitchmapComponent } from './switchmap/switchmap.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MergemapComponent } from './mergemap/mergemap.component';
     DebouncetimeComponent,
     ScanReduceComponent,
     PluckComponent,
-    MergemapComponent
+    MergemapComponent,
+    SwitchmapComponent
   ],
   imports: [
     BrowserModule,

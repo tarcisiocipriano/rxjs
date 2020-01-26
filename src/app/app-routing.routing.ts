@@ -8,6 +8,7 @@ import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
 import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
 import { PluckComponent } from './pluck/pluck.component';
 import { MergemapComponent } from './mergemap/mergemap.component';
+import { SwitchmapComponent } from './switchmap/switchmap.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: 'debouncetime', component: DebouncetimeComponent },
   { path: 'scan-reduce', component: ScanReduceComponent },
   { path: 'pluck', component: PluckComponent },
-  { path: 'mergemap', component: MergemapComponent }
+  { path: 'mergemap', component: MergemapComponent },
+  { path: 'switchmap', component: SwitchmapComponent }
 ];
 
 @NgModule({
