@@ -1,44 +1,16 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <a class="navbar-brand" routerLink="observable">RxJS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="observable">Observable</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="map-throttletime">map-throttletime</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="subject">Subject</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="filter">Filter</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="debouncetime">DebounceTime</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="scan-reduce">Scan-Reduce</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="pluck">Pluck</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="mergemap">MergeMap</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="switchmap">SwitchMap</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="behaviorsubject">BehaviorSubject</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<app-navbar></app-navbar>
 
-<div class="container">
-  <router-outlet></router-outlet>
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-3">
+      <div class="list-group">
+        <app-sidebar *ngFor="let item of observables" [sidebarItem]="item"></app-sidebar>
+      </div>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
 </div>

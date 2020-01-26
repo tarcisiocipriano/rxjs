@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ObservableComponent } from './observable/observable.component';
-import { MapThrottletimeComponent } from './map-throttletime/map-throttletime.component';
-import { SubjectComponent } from './subject/subject.component';
-import { FilterComponent } from './filter/filter.component';
-import { DebouncetimeComponent } from './debouncetime/debouncetime.component';
-import { ScanReduceComponent } from './scan-reduce/scan-reduce.component';
-import { PluckComponent } from './pluck/pluck.component';
-import { MergemapComponent } from './mergemap/mergemap.component';
-import { SwitchmapComponent } from './switchmap/switchmap.component';
-import { BehaviorsubjectComponent } from './behaviorsubject/behaviorsubject.component';
+import { ObservableComponent } from './samples/observable/observable.component';
+import { MapThrottletimeComponent } from './samples/map-throttletime/map-throttletime.component';
+import { SubjectComponent } from './samples/subject/subject.component';
+import { FilterComponent } from './samples/filter/filter.component';
+import { DebouncetimeComponent } from './samples/debouncetime/debouncetime.component';
+import { ScanReduceComponent } from './samples/scan-reduce/scan-reduce.component';
+import { PluckComponent } from './samples/pluck/pluck.component';
+import { MergemapComponent } from './samples/mergemap/mergemap.component';
+import { SwitchmapComponent } from './samples/switchmap/switchmap.component';
+import { BehaviorsubjectComponent } from './samples/behaviorsubject/behaviorsubject.component';
 
 
 const routes: Routes = [
